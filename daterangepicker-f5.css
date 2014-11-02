@@ -42,7 +42,7 @@
 }
 
 .daterangepicker .calendar table {
-  border 0
+  border: 0px;
 }
 
 .daterangepicker .calendar.single .calendar-date {
@@ -193,7 +193,7 @@
 .daterangepicker table {
   width: 100%;
   margin: 0;
-  border 0
+  border:0px;
 }
 
 .daterangepicker td, .daterangepicker th {
