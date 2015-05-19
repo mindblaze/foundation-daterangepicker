@@ -1,6 +1,6 @@
 /**
 * @mod: Works with foundation 5
-* @version: 1.3.3 (Modified to work with foundation and entypo[fontello one])
+* @version: 1.3.3 (Modified to work with foundation and foundation-icon-fonts-3)
 * @author: Dan Grossman http://www.dangrossman.info/
 * @date: 2014-01-22
 * @copyright: Copyright (c) 2012-2014 Dan Grossman. All rights reserved.
@@ -846,7 +846,7 @@
                 html += '<th></th>';
 
             if (!minDate || minDate.isBefore(calendar[1][1])) {
-                html += '<th class="prev available"><i class="entypo left-open-mini"></i></th>';
+                html += '<th class="prev available"><i class="fi-arrow-left"></i></th>';
             } else {
                 html += '<th></th>';
             }
@@ -859,7 +859,7 @@
 
             html += '<th colspan="5" class="month">' + dateHtml + '</th>';
             if (!maxDate || maxDate.isAfter(calendar[1][1])) {
-                html += '<th class="next available"><i class="entypo right-open-mini"></i></th>';
+                html += '<th class="next available"><i class="fi-arrow-right"></i></th>';
             } else {
                 html += '<th></th>';
             }
